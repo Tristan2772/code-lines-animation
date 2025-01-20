@@ -62,7 +62,7 @@ function createLine(leftPosition, size){
 //square logic
 function createSquare(parentElement) {
     //create element
-    let lineBox = document.createElement("p");
+    let lineBox = document.createElement("div");
     lineBox.classList.add("matrix-line-box");
 
     //get random letter for box
